@@ -1,2 +1,2 @@
 # Bank-chatbot
-LLM model
+LLM model which is an a Genrative AI model 
