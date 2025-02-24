@@ -313,7 +313,7 @@
               "    async function quickchart(key) {\n",
               "      const quickchartButtonEl =\n",
               "        document.querySelector('#' + key + ' button');\n",
-              "      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.\n",
+              "      quickchartButtonEl.disabled = True;  // To prevent multiple clicks.\n",
               "      quickchartButtonEl.classList.add('colab-df-spinner');\n",
               "      try {\n",
               "        const charts = await google.colab.kernel.invokeFunction(\n",
@@ -642,7 +642,7 @@
               "    async function quickchart(key) {\n",
               "      const quickchartButtonEl =\n",
               "        document.querySelector('#' + key + ' button');\n",
-              "      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.\n",
+              "      quickchartButtonEl.disabled = True;  // To prevent multiple clicks.\n",
               "      quickchartButtonEl.classList.add('colab-df-spinner');\n",
               "      try {\n",
               "        const charts = await google.colab.kernel.invokeFunction(\n",
@@ -2213,7 +2213,7 @@
     "colab": {
       "provenance": [],
       "authorship_tag": "ABX9TyNGBCoQ5dMgJIOHiDTVZp6y",
-      "include_colab_link": true
+      "include_colab_link": True
     },
     "kernelspec": {
       "display_name": "Python 3",
