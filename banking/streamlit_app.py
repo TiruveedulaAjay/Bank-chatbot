@@ -33,12 +33,12 @@
       "metadata": {
         "id": "34VfRkf8NnpQ"
       },
-      "execution_count": null,
+      "execution_count": none,
       "outputs": []
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": none,
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/",
