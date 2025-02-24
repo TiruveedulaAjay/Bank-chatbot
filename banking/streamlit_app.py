@@ -33,12 +33,12 @@
       "metadata": {
         "id": "34VfRkf8NnpQ"
       },
-      "execution_count": none,
+      "execution_count": None,
       "outputs": []
     },
     {
       "cell_type": "code",
-      "execution_count": none,
+      "execution_count": None,
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/",
@@ -131,7 +131,7 @@
               "  <div class=\"colab-df-container\">\n",
               "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-57c7e777-71d2-4e29-b48e-ff5c751d9c2b')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
-              "            style=\"display:none;\">\n",
+              "            style=\"display:None;\">\n",
               "\n",
               "  <svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 -960 960 960\">\n",
               "    <path d=\"M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z\"/>\n",
@@ -146,10 +146,10 @@
               "\n",
               "    .colab-df-convert {\n",
               "      background-color: #E8F0FE;\n",
-              "      border: none;\n",
+              "      border: None;\n",
               "      border-radius: 50%;\n",
               "      cursor: pointer;\n",
-              "      display: none;\n",
+              "      display: None;\n",
               "      fill: #1967D2;\n",
               "      height: 32px;\n",
               "      padding: 0 0 0 0;\n",
@@ -183,7 +183,7 @@
               "      const buttonEl =\n",
               "        document.querySelector('#df-57c7e777-71d2-4e29-b48e-ff5c751d9c2b button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
-              "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
+              "        google.colab.kernel.accessAllowed ? 'block' : 'None';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
               "        const element = document.querySelector('#df-57c7e777-71d2-4e29-b48e-ff5c751d9c2b');\n",
@@ -209,7 +209,7 @@
               "<div id=\"df-6c475b96-9061-4273-878b-ee7548f215f3\">\n",
               "  <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-6c475b96-9061-4273-878b-ee7548f215f3')\"\n",
               "            title=\"Suggest charts\"\n",
-              "            style=\"display:none;\">\n",
+              "            style=\"display:None;\">\n",
               "\n",
               "<svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\"viewBox=\"0 0 24 24\"\n",
               "     width=\"24px\">\n",
@@ -240,10 +240,10 @@
               "\n",
               "  .colab-df-quickchart {\n",
               "    background-color: var(--bg-color);\n",
-              "    border: none;\n",
+              "    border: None;\n",
               "    border-radius: 50%;\n",
               "    cursor: pointer;\n",
-              "    display: none;\n",
+              "    display: None;\n",
               "    fill: var(--fill-color);\n",
               "    height: 32px;\n",
               "    padding: 0;\n",
@@ -260,7 +260,7 @@
               "  .colab-df-quickchart-complete:disabled:hover {\n",
               "    background-color: var(--disabled-bg-color);\n",
               "    fill: var(--disabled-fill-color);\n",
-              "    box-shadow: none;\n",
+              "    box-shadow: None;\n",
               "  }\n",
               "\n",
               "  .colab-df-spinner {\n",
@@ -328,7 +328,7 @@
               "      let quickchartButtonEl =\n",
               "        document.querySelector('#df-6c475b96-9061-4273-878b-ee7548f215f3 button');\n",
               "      quickchartButtonEl.style.display =\n",
-              "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
+              "        google.colab.kernel.accessAllowed ? 'block' : 'None';\n",
               "    })();\n",
               "  </script>\n",
               "</div>\n",
@@ -352,7 +352,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": None,
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
@@ -368,11 +368,11 @@
             "<class 'pandas.core.frame.DataFrame'>\n",
             "RangeIndex: 1764 entries, 0 to 1763\n",
             "Data columns (total 3 columns):\n",
-            " #   Column    Non-Null Count  Dtype \n",
+            " #   Column    Non-None Count  Dtype \n",
             "---  ------    --------------  ----- \n",
-            " 0   Question  1764 non-null   object\n",
-            " 1   Answer    1764 non-null   object\n",
-            " 2   Class     1764 non-null   object\n",
+            " 0   Question  1764 non-None   object\n",
+            " 1   Answer    1764 non-None   object\n",
+            " 2   Class     1764 non-None   object\n",
             "dtypes: object(3)\n",
             "memory usage: 41.5+ KB\n"
           ]
@@ -384,7 +384,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": None,
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/",
@@ -460,7 +460,7 @@
               "  <div class=\"colab-df-container\">\n",
               "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-f53bf7e8-a295-47b1-acce-9b6eddb777de')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
-              "            style=\"display:none;\">\n",
+              "            style=\"display:None;\">\n",
               "\n",
               "  <svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 -960 960 960\">\n",
               "    <path d=\"M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z\"/>\n",
@@ -475,10 +475,10 @@
               "\n",
               "    .colab-df-convert {\n",
               "      background-color: #E8F0FE;\n",
-              "      border: none;\n",
+              "      border: None;\n",
               "      border-radius: 50%;\n",
               "      cursor: pointer;\n",
-              "      display: none;\n",
+              "      display: None;\n",
               "      fill: #1967D2;\n",
               "      height: 32px;\n",
               "      padding: 0 0 0 0;\n",
@@ -512,7 +512,7 @@
               "      const buttonEl =\n",
               "        document.querySelector('#df-f53bf7e8-a295-47b1-acce-9b6eddb777de button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
-              "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
+              "        google.colab.kernel.accessAllowed ? 'block' : 'None';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
               "        const element = document.querySelector('#df-f53bf7e8-a295-47b1-acce-9b6eddb777de');\n",
@@ -538,7 +538,7 @@
               "<div id=\"df-53fe52cc-59a0-43de-a445-0d4d188981c7\">\n",
               "  <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-53fe52cc-59a0-43de-a445-0d4d188981c7')\"\n",
               "            title=\"Suggest charts\"\n",
-              "            style=\"display:none;\">\n",
+              "            style=\"display:None;\">\n",
               "\n",
               "<svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\"viewBox=\"0 0 24 24\"\n",
               "     width=\"24px\">\n",
@@ -569,10 +569,10 @@
               "\n",
               "  .colab-df-quickchart {\n",
               "    background-color: var(--bg-color);\n",
-              "    border: none;\n",
+              "    border: None;\n",
               "    border-radius: 50%;\n",
               "    cursor: pointer;\n",
-              "    display: none;\n",
+              "    display: None;\n",
               "    fill: var(--fill-color);\n",
               "    height: 32px;\n",
               "    padding: 0;\n",
@@ -589,7 +589,7 @@
               "  .colab-df-quickchart-complete:disabled:hover {\n",
               "    background-color: var(--disabled-bg-color);\n",
               "    fill: var(--disabled-fill-color);\n",
-              "    box-shadow: none;\n",
+              "    box-shadow: None;\n",
               "  }\n",
               "\n",
               "  .colab-df-spinner {\n",
@@ -657,7 +657,7 @@
               "      let quickchartButtonEl =\n",
               "        document.querySelector('#df-53fe52cc-59a0-43de-a445-0d4d188981c7 button');\n",
               "      quickchartButtonEl.style.display =\n",
-              "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
+              "        google.colab.kernel.accessAllowed ? 'block' : 'None';\n",
               "    })();\n",
               "  </script>\n",
               "</div>\n",
@@ -680,7 +680,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": None,
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/",
@@ -774,7 +774,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": None,
       "metadata": {
         "id": "IvyGJB3iHvka"
       },
@@ -786,7 +786,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": None,
       "metadata": {
         "id": "arCAJwWAIKbu"
       },
@@ -798,7 +798,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": None,
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
@@ -822,7 +822,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": None,
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
@@ -859,7 +859,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": None,
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
@@ -896,7 +896,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": None,
       "metadata": {
         "id": "21dd3Ec_M3cN"
       },
@@ -907,7 +907,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": None,
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/",
@@ -984,8 +984,8 @@
               "}\n",
               "\n",
               "#sk-container-id-1 div.sk-container {\n",
-              "  /* jupyter's `normalize.less` sets `[hidden] { display: none; }`\n",
-              "     but bootstrap.min.css set `[hidden] { display: none !important; }`\n",
+              "  /* jupyter's `normalize.less` sets `[hidden] { display: None; }`\n",
+              "     but bootstrap.min.css set `[hidden] { display: None !important; }`\n",
               "     so we also need the `!important` here to be able to override the\n",
               "     default hidden behavior on the sphinx rendered scikit-learn.org.\n",
               "     See: https://github.com/scikit-learn/scikit-learn/issues/21755 */\n",
@@ -994,7 +994,7 @@
               "}\n",
               "\n",
               "#sk-container-id-1 div.sk-text-repr-fallback {\n",
-              "  display: none;\n",
+              "  display: None;\n",
               "}\n",
               "\n",
               "div.sk-parallel-item,\n",
@@ -1238,7 +1238,7 @@
               "  border-radius: 1em;\n",
               "  height: 1em;\n",
               "  width: 1em;\n",
-              "  text-decoration: none !important;\n",
+              "  text-decoration: None !important;\n",
               "  margin-left: 0.5em;\n",
               "  text-align: center;\n",
               "  /* unfitted */\n",
@@ -1262,7 +1262,7 @@
               "  /* unfitted */\n",
               "  background-color: var(--sklearn-color-unfitted-level-3);\n",
               "  color: var(--sklearn-color-background);\n",
-              "  text-decoration: none;\n",
+              "  text-decoration: None;\n",
               "}\n",
               "\n",
               "div.sk-estimator.fitted:hover .sk-estimator-doc-link.fitted:hover,\n",
@@ -1272,12 +1272,12 @@
               "  /* fitted */\n",
               "  background-color: var(--sklearn-color-fitted-level-3);\n",
               "  color: var(--sklearn-color-background);\n",
-              "  text-decoration: none;\n",
+              "  text-decoration: None;\n",
               "}\n",
               "\n",
               "/* Span, style for the box shown on hovering the info icon */\n",
               ".sk-estimator-doc-link span {\n",
-              "  display: none;\n",
+              "  display: None;\n",
               "  z-index: 9999;\n",
               "  position: relative;\n",
               "  font-weight: normal;\n",
@@ -1315,7 +1315,7 @@
               "  border-radius: 1rem;\n",
               "  height: 1rem;\n",
               "  width: 1rem;\n",
-              "  text-decoration: none;\n",
+              "  text-decoration: None;\n",
               "  /* unfitted */\n",
               "  color: var(--sklearn-color-unfitted-level-1);\n",
               "  border: var(--sklearn-color-unfitted-level-1) 1pt solid;\n",
@@ -1332,7 +1332,7 @@
               "  /* unfitted */\n",
               "  background-color: var(--sklearn-color-unfitted-level-3);\n",
               "  color: var(--sklearn-color-background);\n",
-              "  text-decoration: none;\n",
+              "  text-decoration: None;\n",
               "}\n",
               "\n",
               "#sk-container-id-1 a.estimator_doc_link.fitted:hover {\n",
@@ -1354,7 +1354,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": None,
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
@@ -1429,7 +1429,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": None,
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
@@ -1518,7 +1518,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": None,
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
@@ -1541,7 +1541,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": None,
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/",
@@ -1581,7 +1581,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": None,
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
@@ -1631,7 +1631,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": None,
       "metadata": {
         "id": "A7KGUm9MRA6V"
       },
@@ -1644,7 +1644,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": None,
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
@@ -1684,7 +1684,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": None,
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
@@ -1759,7 +1759,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": None,
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
@@ -1783,7 +1783,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": None,
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
@@ -1806,7 +1806,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": None,
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/",
@@ -1845,7 +1845,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": None,
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
@@ -1884,7 +1884,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": None,
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
@@ -1929,14 +1929,14 @@
         "id": "ac2z_zw-Xw4o",
         "outputId": "6ae5e89e-ffc7-4479-a07d-e783bbb4ccfd"
       },
-      "execution_count": null,
+      "execution_count": None,
       "outputs": [
         {
           "output_type": "stream",
           "name": "stdout",
           "text": [
             "Collecting streamlit\n",
-            "  Downloading streamlit-1.42.2-py2.py3-none-any.whl.metadata (8.9 kB)\n",
+            "  Downloading streamlit-1.42.2-py2.py3-None-any.whl.metadata (8.9 kB)\n",
             "Requirement already satisfied: altair<6,>=4.0 in /usr/local/lib/python3.11/dist-packages (from streamlit) (5.5.0)\n",
             "Requirement already satisfied: blinker<2,>=1.0.0 in /usr/local/lib/python3.11/dist-packages (from streamlit) (1.9.0)\n",
             "Requirement already satisfied: cachetools<6,>=4.0 in /usr/local/lib/python3.11/dist-packages (from streamlit) (5.5.1)\n",
@@ -1953,11 +1953,11 @@
             "Requirement already satisfied: toml<2,>=0.10.1 in /usr/local/lib/python3.11/dist-packages (from streamlit) (0.10.2)\n",
             "Requirement already satisfied: typing-extensions<5,>=4.4.0 in /usr/local/lib/python3.11/dist-packages (from streamlit) (4.12.2)\n",
             "Collecting watchdog<7,>=2.1.5 (from streamlit)\n",
-            "  Downloading watchdog-6.0.0-py3-none-manylinux2014_x86_64.whl.metadata (44 kB)\n",
+            "  Downloading watchdog-6.0.0-py3-None-manylinux2014_x86_64.whl.metadata (44 kB)\n",
             "\u001b[2K     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m44.3/44.3 kB\u001b[0m \u001b[31m1.7 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
             "\u001b[?25hRequirement already satisfied: gitpython!=3.1.19,<4,>=3.0.7 in /usr/local/lib/python3.11/dist-packages (from streamlit) (3.1.44)\n",
             "Collecting pydeck<1,>=0.8.0b4 (from streamlit)\n",
-            "  Downloading pydeck-0.9.1-py2.py3-none-any.whl.metadata (4.1 kB)\n",
+            "  Downloading pydeck-0.9.1-py2.py3-None-any.whl.metadata (4.1 kB)\n",
             "Requirement already satisfied: tornado<7,>=6.0.3 in /usr/local/lib/python3.11/dist-packages (from streamlit) (6.4.2)\n",
             "Requirement already satisfied: jinja2 in /usr/local/lib/python3.11/dist-packages (from altair<6,>=4.0->streamlit) (3.1.5)\n",
             "Requirement already satisfied: jsonschema>=3.0 in /usr/local/lib/python3.11/dist-packages (from altair<6,>=4.0->streamlit) (4.23.0)\n",
@@ -1980,11 +1980,11 @@
             "Requirement already satisfied: rpds-py>=0.7.1 in /usr/local/lib/python3.11/dist-packages (from jsonschema>=3.0->altair<6,>=4.0->streamlit) (0.22.3)\n",
             "Requirement already satisfied: mdurl~=0.1 in /usr/local/lib/python3.11/dist-packages (from markdown-it-py>=2.2.0->rich<14,>=10.14.0->streamlit) (0.1.2)\n",
             "Requirement already satisfied: six>=1.5 in /usr/local/lib/python3.11/dist-packages (from python-dateutil>=2.8.2->pandas<3,>=1.4.0->streamlit) (1.17.0)\n",
-            "Downloading streamlit-1.42.2-py2.py3-none-any.whl (9.6 MB)\n",
+            "Downloading streamlit-1.42.2-py2.py3-None-any.whl (9.6 MB)\n",
             "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m9.6/9.6 MB\u001b[0m \u001b[31m58.0 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
-            "\u001b[?25hDownloading pydeck-0.9.1-py2.py3-none-any.whl (6.9 MB)\n",
+            "\u001b[?25hDownloading pydeck-0.9.1-py2.py3-None-any.whl (6.9 MB)\n",
             "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m6.9/6.9 MB\u001b[0m \u001b[31m85.9 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
-            "\u001b[?25hDownloading watchdog-6.0.0-py3-none-manylinux2014_x86_64.whl (79 kB)\n",
+            "\u001b[?25hDownloading watchdog-6.0.0-py3-None-manylinux2014_x86_64.whl (79 kB)\n",
             "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m79.1/79.1 kB\u001b[0m \u001b[31m6.4 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
             "\u001b[?25hInstalling collected packages: watchdog, pydeck, streamlit\n",
             "Successfully installed pydeck-0.9.1 streamlit-1.42.2 watchdog-6.0.0\n"
@@ -2005,7 +2005,7 @@
         "id": "9W25zB1VXfn6",
         "outputId": "08c64bd5-f400-4179-b2d4-90aa1b7ec5e7"
       },
-      "execution_count": null,
+      "execution_count": None,
       "outputs": [
         {
           "output_type": "stream",
@@ -2065,7 +2065,7 @@
         "id": "9R8Z1xsKbh9S",
         "outputId": "022e9d8c-5b9d-4b52-cbd9-951da320248a"
       },
-      "execution_count": null,
+      "execution_count": None,
       "outputs": [
         {
           "output_type": "stream",
@@ -2171,7 +2171,7 @@
         "id": "NzvJTkAEZb7W",
         "outputId": "fce37d24-683a-423e-f24c-c0487f392915"
       },
-      "execution_count": null,
+      "execution_count": None,
       "outputs": [
         {
           "output_type": "stream",
@@ -2205,7 +2205,7 @@
       "metadata": {
         "id": "adcUAoyhNWfa"
       },
-      "execution_count": null,
+      "execution_count": None,
       "outputs": []
     }
   ],
